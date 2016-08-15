@@ -12,6 +12,7 @@
 		F803C9F31D61A76D00204A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F803C9F11D61A76D00204A82 /* Main.storyboard */; };
 		F803C9F51D61A76D00204A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F803C9F41D61A76D00204A82 /* Assets.xcassets */; };
 		F803C9F81D61A76D00204A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F803C9F61D61A76D00204A82 /* LaunchScreen.storyboard */; };
+		F803CA001D61AB1800204A82 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F803C9FF1D61AB1800204A82 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F803C9F41D61A76D00204A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F803C9F71D61A76D00204A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F803C9F91D61A76D00204A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F803C9FF1D61AB1800204A82 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F803C9ED1D61A76D00204A82 /* AppDelegate.swift */,
 				F803C9EF1D61A76D00204A82 /* ViewController.swift */,
 				F803C9F11D61A76D00204A82 /* Main.storyboard */,
+				F803C9FF1D61AB1800204A82 /* ResultViewController.swift */,
 				F803C9F41D61A76D00204A82 /* Assets.xcassets */,
 				F803C9F61D61A76D00204A82 /* LaunchScreen.storyboard */,
 				F803C9F91D61A76D00204A82 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				F803C9F01D61A76D00204A82 /* ViewController.swift in Sources */,
 				F803C9EE1D61A76D00204A82 /* AppDelegate.swift in Sources */,
+				F803CA001D61AB1800204A82 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +255,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.akihiro.itoh.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,6 +267,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.akihiro.itoh.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
